@@ -34,18 +34,21 @@ function CategoryProducts() {
         if (searchText.trim() !== "") {
           const search = searchText.trim().toLowerCase();
 
-          filteredProducts = filteredProducts.filter((product) => {
-            const productName =
-              product.productName?.toLowerCase() || "";
+          const exactCategoryProducts = filteredProducts.filter(
+            (product) =>
+              product.category?.toLowerCase() === search
+          );
 
-            const productCategory =
-              product.category?.toLowerCase() || "";
+          if (exactCategoryProducts.length > 0) {
+            filteredProducts = exactCategoryProducts;
+          } else {
+            filteredProducts = filteredProducts.filter((product) => {
+              const productName =
+                product.productName?.toLowerCase() || "";
 
-            return (
-              productName.includes(search) ||
-              productCategory.includes(search)
-            );
-          });
+              return productName.includes(search);
+            });
+          }
         }
 
         setProducts(filteredProducts);
