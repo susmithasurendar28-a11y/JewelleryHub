@@ -1,0 +1,680 @@
+/* =====================================================
+   JEWELLERYHUB - BAG
+===================================================== */
+
+.bag-page {
+  min-height: 70vh;
+  padding: 55px 6% 80px;
+  background: #fcfaf7;
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.bag-header {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.bag-header span {
+  display: block;
+  margin-bottom: 10px;
+
+  color: #a47a42;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.bag-header h1 {
+  margin: 0 0 10px;
+
+  color: #302821;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 38px;
+  font-weight: 400;
+}
+
+.bag-header p {
+  margin: 0;
+
+  color: #81766c;
+  font-size: 13px;
+}
+
+
+/* =====================================================
+   EMPTY BAG
+===================================================== */
+
+.bag-empty {
+  max-width: 600px;
+  margin: 0 auto;
+
+  padding: 65px 30px;
+
+  text-align: center;
+
+  background: #ffffff;
+
+  border: 1px solid #e8dfd5;
+}
+
+.bag-icon {
+  width: 75px;
+  height: 75px;
+
+  margin: 0 auto 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #ddcfc0;
+  border-radius: 50%;
+
+  background: #fcfaf7;
+
+  color: #a47a42;
+
+  font-size: 30px;
+}
+
+.bag-empty h2 {
+  margin: 0 0 12px;
+
+  color: #302821;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.bag-empty p {
+  max-width: 420px;
+
+  margin: 0 auto 28px;
+
+  color: #81766c;
+
+  font-size: 13px;
+
+  line-height: 1.7;
+}
+
+.bag-shop-button {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  min-width: 190px;
+  height: 45px;
+
+  padding: 0 25px;
+
+  background: #332921;
+
+  color: #ffffff;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  text-decoration: none;
+
+  transition: 0.3s ease;
+}
+
+.bag-shop-button:hover {
+  background: #a47a42;
+}
+
+
+/* =====================================================
+   BAG CONTENT
+   LEFT AND RIGHT BOXES SAME HEIGHT
+===================================================== */
+
+.bag-content {
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: minmax(0, 1fr) 350px;
+
+  gap: 35px;
+
+  align-items: stretch;
+}
+
+
+/* =====================================================
+   PRODUCTS SECTION
+===================================================== */
+
+.bag-products {
+  background: #ffffff;
+
+  border: 1px solid #e8dfd5;
+
+  height: 100%;
+
+  box-sizing: border-box;
+}
+
+
+/* =====================================================
+   PRODUCTS HEADING
+===================================================== */
+
+.bag-products-heading {
+  min-height: 70px;
+
+  padding: 0 25px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 1px solid #eee7df;
+}
+
+.bag-products-heading h2 {
+  margin: 0;
+
+  color: #302821;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.bag-products-heading span {
+  color: #8d8278;
+
+  font-size: 11px;
+}
+
+
+/* =====================================================
+   BAG ITEM
+===================================================== */
+
+.bag-item {
+  min-height: 180px;
+
+  padding: 22px 25px;
+
+  display: grid;
+
+  grid-template-columns: 145px minmax(0, 1fr) auto;
+
+  gap: 22px;
+
+  border-bottom: 1px solid #eee7df;
+}
+
+.bag-item:last-child {
+  border-bottom: none;
+}
+
+
+/* =====================================================
+   PRODUCT IMAGE
+===================================================== */
+
+.bag-item-image {
+  width: 145px;
+  height: 155px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: #f6f1ea;
+
+  overflow: hidden;
+}
+
+.bag-item-image img {
+  width: 100%;
+  height: 100%;
+
+  padding: 10px;
+
+  box-sizing: border-box;
+
+  object-fit: contain;
+
+  display: block;
+
+  transition: 0.3s ease;
+}
+
+.bag-item-image:hover img {
+  transform: scale(1.04);
+}
+
+
+/* =====================================================
+   PRODUCT INFO
+===================================================== */
+
+.bag-item-info {
+  padding-top: 5px;
+}
+
+.bag-item-info > span {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color: #a47a42;
+
+  font-size: 9px;
+  font-weight: 700;
+
+  letter-spacing: 1.5px;
+
+  text-transform: uppercase;
+}
+
+.bag-item-info h3 {
+  max-width: 330px;
+
+  margin: 0 0 12px;
+
+  color: #302821;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 19px;
+  font-weight: 400;
+
+  line-height: 1.3;
+}
+
+.bag-item-info > strong {
+  display: block;
+
+  margin-bottom: 18px;
+
+  color: #9a6c32;
+
+  font-size: 15px;
+}
+
+
+/* =====================================================
+   QUANTITY
+===================================================== */
+
+.bag-quantity {
+  width: 105px;
+  height: 36px;
+
+  display: flex;
+
+  align-items: center;
+
+  border: 1px solid #ddd3c8;
+
+  background: #ffffff;
+}
+
+.bag-quantity button {
+  width: 35px;
+  height: 100%;
+
+  border: none;
+
+  background: transparent;
+
+  color: #40372f;
+
+  font-size: 17px;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.bag-quantity button:hover {
+  background: #f6f0e9;
+}
+
+.bag-quantity span {
+  flex: 1;
+
+  text-align: center;
+
+  color: #302821;
+
+  font-size: 12px;
+}
+
+
+/* =====================================================
+   RIGHT SIDE OF ITEM
+===================================================== */
+
+.bag-item-right {
+  min-width: 105px;
+
+  padding-top: 5px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-end;
+}
+
+.bag-item-right > strong {
+  color: #302821;
+
+  font-size: 15px;
+
+  white-space: nowrap;
+}
+
+
+/* =====================================================
+   REMOVE
+===================================================== */
+
+.bag-remove {
+  margin-top: auto;
+
+  border: none;
+
+  background: transparent;
+
+  color: #8c8178;
+
+  font-size: 10px;
+
+  text-decoration: underline;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.bag-remove:hover {
+  color: #a47a42;
+}
+
+
+/* =====================================================
+   ORDER SUMMARY
+   SAME HEIGHT AS LEFT BOX
+===================================================== */
+
+.bag-summary {
+  position: static;
+
+  padding: 28px;
+
+  background: #ffffff;
+
+  border: 1px solid #e8dfd5;
+
+  box-sizing: border-box;
+
+  height: 100%;
+
+  align-self: stretch;
+}
+
+.bag-summary h2 {
+  margin: 0 0 25px;
+
+  color: #302821;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 23px;
+  font-weight: 400;
+}
+
+
+/* =====================================================
+   SUMMARY ROW
+===================================================== */
+
+.summary-row {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 16px;
+}
+
+.summary-row span {
+  color: #81766c;
+
+  font-size: 12px;
+}
+
+.summary-row strong {
+  color: #40372f;
+
+  font-size: 12px;
+}
+
+.summary-row:last-of-type strong {
+  color: #66805e;
+
+  font-size: 11px;
+}
+
+
+/* =====================================================
+   LINE
+===================================================== */
+
+.summary-line {
+  height: 1px;
+
+  margin: 22px 0;
+
+  background: #e8dfd5;
+}
+
+
+/* =====================================================
+   TOTAL
+===================================================== */
+
+.summary-total {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 25px;
+}
+
+.summary-total span {
+  color: #302821;
+
+  font-size: 14px;
+
+  font-weight: 600;
+}
+
+.summary-total strong {
+  color: #9a6c32;
+
+  font-size: 20px;
+}
+
+
+/* =====================================================
+   CHECKOUT
+===================================================== */
+
+.checkout-button {
+  width: 100%;
+  height: 48px;
+
+  border: none;
+
+  background: #332921;
+
+  color: #ffffff;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 0.5px;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.checkout-button:hover {
+  background: #a47a42;
+}
+
+
+/* =====================================================
+   CONTINUE SHOPPING
+===================================================== */
+
+.continue-shopping {
+  display: block;
+
+  margin-top: 18px;
+
+  color: #81766c;
+
+  text-align: center;
+
+  font-size: 11px;
+
+  text-decoration: none;
+
+  transition: 0.2s ease;
+}
+
+.continue-shopping:hover {
+  color: #a47a42;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 950px) {
+
+  .bag-content {
+    grid-template-columns: 1fr;
+
+    align-items: stretch;
+  }
+
+  .bag-summary {
+    position: static;
+
+    height: auto;
+  }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 650px) {
+
+  .bag-page {
+    padding: 40px 5% 60px;
+  }
+
+  .bag-header h1 {
+    font-size: 32px;
+  }
+
+  .bag-item {
+    grid-template-columns: 100px minmax(0, 1fr);
+
+    gap: 15px;
+
+    padding: 18px;
+  }
+
+  .bag-item-image {
+    width: 100px;
+    height: 120px;
+  }
+
+  .bag-item-right {
+    grid-column: 2;
+
+    min-width: 0;
+
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 0;
+  }
+
+  .bag-products-heading {
+    padding: 0 18px;
+  }
+
+  .bag-products-heading h2 {
+    font-size: 19px;
+  }
+
+  .bag-summary {
+    padding: 23px;
+
+    height: auto;
+  }
+
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 420px) {
+
+  .bag-item {
+    grid-template-columns: 85px minmax(0, 1fr);
+  }
+
+  .bag-item-image {
+    width: 85px;
+    height: 105px;
+  }
+
+  .bag-item-info h3 {
+    font-size: 16px;
+  }
+
+  .bag-item-info > strong {
+    font-size: 14px;
+  }
+
+}

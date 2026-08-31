@@ -1,0 +1,348 @@
+/* =========================
+   ADMIN LAYOUT
+========================= */
+
+.admin-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #f8f7f5;
+}
+
+
+/* =========================
+   USERS PAGE
+========================= */
+
+.users-page {
+  flex: 1;
+  margin-left: 250px;
+  padding: 35px 40px;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.users-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.users-header h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: #222;
+}
+
+.users-header p {
+  margin: 7px 0 0;
+  color: #777;
+  font-size: 14px;
+}
+
+
+/* =========================
+   CUSTOMER COUNT
+========================= */
+
+.user-count {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 12px;
+  padding: 13px 24px;
+  min-width: 130px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+}
+
+.user-count span {
+  display: block;
+  color: #777;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.user-count strong {
+  display: block;
+  color: #222;
+  font-size: 25px;
+}
+
+
+/* =========================
+   USERS CARD
+========================= */
+
+.users-card {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #eeeeee;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+
+/* =========================
+   CARD HEADER
+========================= */
+
+.users-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 28px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.users-card-header h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #222;
+}
+
+.users-card-header p {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: #888;
+}
+
+.customer-count {
+  background: #f7f1ea;
+  color: #8a5a32;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
+/* =========================
+   TABLE
+========================= */
+
+.users-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 850px;
+}
+
+
+/* TABLE HEADER */
+
+.users-table thead {
+  background: #faf9f7;
+}
+
+.users-table th {
+  padding: 16px 22px;
+  text-align: left;
+  font-size: 11px;
+  font-weight: 700;
+  color: #777;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+
+/* TABLE BODY */
+
+.users-table td {
+  padding: 18px 22px;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 14px;
+  color: #444;
+  vertical-align: middle;
+}
+
+.users-table tbody tr {
+  transition: 0.2s ease;
+}
+
+.users-table tbody tr:hover {
+  background: #fcfbf9;
+}
+
+.users-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+
+/* =========================
+   SERIAL NUMBER
+========================= */
+
+.serial-number {
+  color: #999 !important;
+  font-weight: 600;
+}
+
+
+/* =========================
+   CUSTOMER INFO
+========================= */
+
+.customer-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.customer-avatar {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  background: #f0e2d2;
+  color: #875a35;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.customer-details strong {
+  display: block;
+  color: #222;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.customer-details span {
+  display: block;
+  color: #999;
+  font-size: 11px;
+}
+
+
+/* =========================
+   EMAIL
+========================= */
+
+.customer-email {
+  color: #555;
+}
+
+
+/* =========================
+   CUSTOMER ID
+========================= */
+
+.customer-id {
+  background: #f7f7f7;
+  color: #777;
+  padding: 6px 9px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
+/* =========================
+   DELETE BUTTON
+========================= */
+
+.user-delete {
+  border: none;
+  background: #fff1f1;
+  color: #d64545;
+  padding: 8px 16px;
+  border-radius: 7px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.user-delete:hover {
+  background: #d64545;
+  color: white;
+}
+
+
+/* =========================
+   LOADING / EMPTY
+========================= */
+
+.users-message {
+  text-align: center;
+  padding: 75px 20px;
+}
+
+.loading-icon,
+.empty-icon {
+  width: 65px;
+  height: 65px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  background: #f5f1ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+
+.users-message h3 {
+  margin: 0 0 8px;
+  color: #333;
+  font-size: 18px;
+}
+
+.users-message p {
+  margin: 0;
+  color: #999;
+  font-size: 13px;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 1000px) {
+
+  .users-page {
+    margin-left: 220px;
+    padding: 25px;
+  }
+
+}
+
+
+@media (max-width: 700px) {
+
+  .users-page {
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .users-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .user-count {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .users-card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+}

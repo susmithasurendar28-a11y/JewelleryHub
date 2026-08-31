@@ -1,0 +1,392 @@
+/* =====================================================
+   JEWELLERYHUB - REGISTER PAGE
+===================================================== */
+
+.register-page {
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  background: #fcfaf7;
+}
+
+
+/* =====================================================
+   LEFT IMAGE
+===================================================== */
+
+.register-image {
+  position: relative;
+
+  min-height: 100vh;
+
+  background-image:
+    url("https://images.pexels.com/photos/32780784/pexels-photo-32780784.jpeg");
+
+  background-size: cover;
+
+  background-position: center;
+}
+
+.register-image::before {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(35, 27, 21, 0.65),
+      rgba(35, 27, 21, 0.22)
+    );
+}
+
+
+/* =====================================================
+   LEFT IMAGE CONTENT
+===================================================== */
+
+.register-image-content {
+  position: absolute;
+
+  z-index: 2;
+
+  left: 70px;
+  bottom: 80px;
+
+  max-width: 450px;
+
+  color: white;
+}
+
+.register-image-content span {
+  display: block;
+
+  margin-bottom: 18px;
+
+  color: #e0bd82;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 4px;
+}
+
+.register-image-content h1 {
+  margin: 0 0 18px;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: 48px;
+
+  line-height: 1.12;
+
+  font-weight: 400;
+}
+
+.register-image-content p {
+  max-width: 380px;
+
+  margin: 0;
+
+  color: #eee7df;
+
+  font-size: 14px;
+
+  line-height: 1.7;
+}
+
+
+/* =====================================================
+   RIGHT SECTION
+===================================================== */
+
+.register-section {
+  min-height: 100vh;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 35px 40px;
+
+  box-sizing: border-box;
+}
+
+
+/* =====================================================
+   REGISTER BOX
+===================================================== */
+
+.register-box {
+  width: 100%;
+
+  max-width: 430px;
+}
+
+
+/* =====================================================
+   LOGO
+===================================================== */
+
+.register-logo {
+  margin-bottom: 32px;
+
+  color: #302821;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: 28px;
+
+  font-weight: 600;
+}
+
+.register-logo span {
+  color: #a47a42;
+}
+
+
+/* =====================================================
+   HEADING
+===================================================== */
+
+.register-welcome {
+  margin: 0 0 7px;
+
+  color: #a47a42;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 3px;
+
+  text-transform: uppercase;
+}
+
+.register-box h2 {
+  margin: 0 0 9px;
+
+  color: #302821;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: 31px;
+
+  font-weight: 400;
+}
+
+.register-subtitle {
+  margin: 0 0 25px;
+
+  color: #887d73;
+
+  font-size: 12px;
+
+  line-height: 1.6;
+}
+
+
+/* =====================================================
+   FORM FIELD
+===================================================== */
+
+.register-field {
+  margin-bottom: 15px;
+}
+
+.register-field label {
+  display: block;
+
+  margin-bottom: 7px;
+
+  color: #40372f;
+
+  font-size: 11px;
+
+  font-weight: 600;
+}
+
+.register-field input {
+  width: 100%;
+
+  height: 43px;
+
+  padding: 0 13px;
+
+  box-sizing: border-box;
+
+  border: 1px solid #ddd3c8;
+
+  outline: none;
+
+  background: white;
+
+  color: #302821;
+
+  font-size: 12px;
+
+  transition: 0.3s ease;
+}
+
+.register-field input::placeholder {
+  color: #aaa097;
+}
+
+.register-field input:focus {
+  border-color: #b89463;
+
+  box-shadow:
+    0 0 0 3px rgba(184, 148, 99, 0.08);
+}
+
+
+/* =====================================================
+   REGISTER BUTTON
+===================================================== */
+
+.register-button {
+  width: 100%;
+
+  height: 48px;
+
+  margin-top: 7px;
+
+  border: none;
+
+  background: #332921;
+
+  color: white;
+
+  font-size: 11px;
+
+  font-weight: 700;
+
+  letter-spacing: 0.8px;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.register-button:hover {
+  background: #a47a42;
+}
+
+
+/* =====================================================
+   LOGIN LINK
+===================================================== */
+
+.already-account {
+  margin: 24px 0 0;
+
+  text-align: center;
+
+  color: #776c63;
+
+  font-size: 12px;
+}
+
+.already-account a {
+  margin-left: 5px;
+
+  color: #a47a42;
+
+  font-weight: 700;
+
+  text-decoration: none;
+}
+
+.already-account a:hover {
+  text-decoration: underline;
+}
+
+
+/* =====================================================
+   BACK HOME
+===================================================== */
+
+.register-back-home {
+  display: block;
+
+  margin-top: 22px;
+
+  text-align: center;
+
+  color: #8b8076;
+
+  font-size: 11px;
+
+  text-decoration: none;
+
+  transition: 0.3s;
+}
+
+.register-back-home:hover {
+  color: #a47a42;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 900px) {
+
+  .register-page {
+    grid-template-columns: 1fr;
+  }
+
+  .register-image {
+    display: none;
+  }
+
+  .register-section {
+    min-height: 100vh;
+
+    padding: 35px 25px;
+  }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 500px) {
+
+  .register-section {
+    padding: 30px 20px;
+  }
+
+  .register-logo {
+    font-size: 25px;
+
+    margin-bottom: 28px;
+  }
+
+  .register-box h2 {
+    font-size: 27px;
+  }
+
+  .register-subtitle {
+    margin-bottom: 22px;
+  }
+
+}

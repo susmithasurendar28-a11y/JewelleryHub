@@ -1,0 +1,507 @@
+/* =====================================================
+   JEWELLERYHUB PREMIUM NAVBAR
+===================================================== */
+
+.user-navbar {
+  width: 100%;
+  min-height: 95px;
+  padding: 0 6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fffaf4;
+  border-bottom: 1px solid #e5d4c0;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1000;
+}
+
+
+/* =====================================================
+   LOGO
+===================================================== */
+
+.navbar-logo {
+  text-decoration: none;
+  color: #3a2517;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  white-space: nowrap;
+}
+
+.navbar-logo span {
+  color: #b18450;
+}
+
+
+/* =====================================================
+   NAVIGATION
+===================================================== */
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  margin-left: 45px;
+}
+
+.navbar-link,
+.category-trigger {
+  position: relative;
+  padding: 12px 0;
+  border: none;
+  background: transparent;
+  color: #35271e;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: 0.25s ease;
+}
+
+.navbar-link:hover,
+.category-trigger:hover {
+  color: #aa7841;
+}
+
+.navbar-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 0;
+  height: 2px;
+  background: #b18450;
+  transition: width 0.25s ease;
+}
+
+.navbar-link:hover::after {
+  width: 100%;
+}
+
+
+/* =====================================================
+   CATEGORY
+===================================================== */
+
+.navbar-category {
+  position: relative;
+}
+
+.category-trigger {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.category-trigger svg {
+  width: 18px;
+  height: 18px;
+}
+
+
+/* =====================================================
+   CATEGORY DROPDOWN
+===================================================== */
+
+.category-dropdown {
+  position: absolute;
+  top: 52px;
+  left: -25px;
+  width: 230px;
+  padding: 10px 0;
+  background: #fffdf9;
+  border: 1px solid #e5d3bd;
+  border-radius: 7px;
+  box-shadow: 0 20px 50px rgba(55, 38, 24, 0.17);
+}
+
+.category-dropdown a {
+  display: block;
+  padding: 15px 24px;
+  color: #3b2b20;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.category-dropdown a:hover {
+  background: #faf0e3;
+  color: #aa7841;
+  padding-left: 31px;
+}
+
+
+/* =====================================================
+   RIGHT SIDE
+===================================================== */
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+
+/* =====================================================
+   SEARCH
+===================================================== */
+
+.navbar-search {
+  width: 280px;
+  height: 44px;
+
+  display: flex;
+  align-items: center;
+  gap: 9px;
+
+  padding: 0 15px;
+  box-sizing: border-box;
+
+  background: #f8efe5;
+  border: 1px solid #e1d0bd;
+  border-radius: 24px;
+
+  transition: all 0.25s ease;
+}
+
+.navbar-search svg {
+  width: 21px;
+  height: 21px;
+  color: #806143;
+  flex-shrink: 0;
+}
+
+.navbar-search input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #35271e;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.navbar-search input::placeholder {
+  color: #927e6a;
+}
+
+
+/* =====================================================
+   ICONS
+===================================================== */
+
+.navbar-icon,
+.account-button {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: #3a2b20;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.25s ease;
+}
+
+.navbar-icon svg,
+.account-button svg {
+  width: 25px;
+  height: 25px;
+  stroke-width: 1.7;
+}
+
+.navbar-icon:hover,
+.account-button:hover {
+  background: #f4e6d6;
+  color: #aa7841;
+}
+
+
+/* =====================================================
+   ACCOUNT
+===================================================== */
+
+.navbar-account {
+  position: relative;
+}
+
+.account-button {
+  padding: 0;
+}
+
+
+/* =====================================================
+   ACCOUNT DROPDOWN
+===================================================== */
+
+.account-dropdown {
+  position: absolute;
+  top: 62px;
+  right: 0;
+  width: 310px;
+  background: #fffdf9;
+  border: 1px solid #e3d0ba;
+  border-radius: 9px;
+  overflow: hidden;
+  box-shadow: 0 25px 60px rgba(55, 38, 24, 0.2);
+  animation: accountOpen 0.2s ease;
+}
+
+@keyframes accountOpen {
+
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}
+
+
+/* =====================================================
+   ACCOUNT HEADER
+===================================================== */
+
+.account-title {
+  padding: 27px 27px 22px;
+  background: linear-gradient(
+    135deg,
+    #f7e9d7,
+    #fffaf4
+  );
+}
+
+.account-title span {
+  display: block;
+  margin-bottom: 9px;
+  color: #aa7841;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.account-title strong {
+  display: block;
+  color: #39271c;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+
+/* =====================================================
+   DIVIDER
+===================================================== */
+
+.account-divider {
+  height: 1px;
+  background: #eadfd3;
+}
+
+
+/* =====================================================
+   ACCOUNT LINKS
+===================================================== */
+
+.account-dropdown a {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-height: 57px;
+  padding: 0 27px;
+  box-sizing: border-box;
+  color: #3c2d23;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.account-dropdown a svg {
+  width: 21px;
+  height: 21px;
+  color: #aa7841;
+  stroke-width: 1.7;
+}
+
+.account-dropdown a:hover {
+  background: #faf1e5;
+  color: #aa7841;
+  padding-left: 34px;
+}
+
+
+/* =====================================================
+   LOGOUT
+===================================================== */
+
+.logout-button {
+  width: 100%;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 27px;
+  border: none;
+  background: #fffdf9;
+  color: #87483e;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: left;
+  transition: 0.2s ease;
+}
+
+.logout-button svg {
+  width: 21px;
+  height: 21px;
+}
+
+.logout-button:hover {
+  background: #faf0ee;
+  padding-left: 34px;
+}
+
+
+/* =====================================================
+   LARGE LAPTOP
+===================================================== */
+
+@media (max-width: 1300px) {
+
+  .user-navbar {
+    padding: 0 3%;
+  }
+
+  .navbar-links {
+    gap: 24px;
+    margin-left: 25px;
+  }
+
+  .navbar-search {
+    width: 180px;
+  }
+
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 1100px) {
+
+  .navbar-logo {
+    font-size: 29px;
+  }
+
+  .navbar-links {
+    gap: 16px;
+  }
+
+  .navbar-link,
+  .category-trigger {
+    font-size: 14px;
+  }
+
+  .navbar-search {
+    width: 145px;
+  }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 800px) {
+
+  .user-navbar {
+    min-height: 78px;
+    padding: 14px 5%;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .navbar-logo {
+    font-size: 27px;
+  }
+
+  .navbar-right {
+    margin-left: auto;
+  }
+
+  .navbar-search {
+    display: none;
+  }
+
+  .navbar-links {
+    order: 3;
+    width: 100%;
+    margin-left: 0;
+    gap: 25px;
+    overflow-x: auto;
+    padding-bottom: 6px;
+  }
+
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 500px) {
+
+  .navbar-logo {
+    font-size: 24px;
+  }
+
+  .navbar-icon,
+  .account-button {
+    width: 44px;
+    height: 44px;
+  }
+
+  .navbar-icon svg,
+  .account-button svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  .navbar-links {
+    gap: 20px;
+  }
+
+  .navbar-link,
+  .category-trigger {
+    font-size: 13px;
+  }
+
+  .account-dropdown {
+    position: fixed;
+    top: 70px;
+    right: 5%;
+    width: 290px;
+  }
+
+}

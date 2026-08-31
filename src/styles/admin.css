@@ -1,0 +1,213 @@
+/* ========================================
+   JEWELLERYHUB ADMIN SIDEBAR
+======================================== */
+
+.admin-sidebar {
+  width: 245px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #171717;
+  border-right: 1px solid #2d2d2d;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 16px;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+
+/* ========================================
+   LOGO
+======================================== */
+
+.admin-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 5px 10px 26px;
+  border-bottom: 1px solid #303030;
+}
+
+.logo-symbol {
+  width: 39px;
+  height: 39px;
+  min-width: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c9a45c;
+  color: #171717;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.admin-logo h2 {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.admin-logo span {
+  display: block;
+  margin-top: 3px;
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  color: #c9a45c;
+}
+
+
+/* ========================================
+   MENU
+======================================== */
+
+.admin-menu {
+  margin-top: 27px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.admin-link {
+  height: 46px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 0 14px;
+  border-radius: 9px;
+  text-decoration: none;
+  color: #b0b0b0;
+  transition: all 0.2s ease;
+}
+
+.admin-link span {
+  width: 21px;
+  min-width: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.admin-link p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+}
+
+
+/* ========================================
+   HOVER
+======================================== */
+
+.admin-link:hover {
+  background: #272727;
+  color: #dfbb72;
+}
+
+
+/* ========================================
+   ACTIVE
+======================================== */
+
+.admin-link.active {
+  background: #302819;
+  color: #dfbb72;
+}
+
+.admin-link.active p {
+  font-weight: 600;
+}
+
+
+/* ========================================
+   BOTTOM
+======================================== */
+
+.admin-bottom {
+  margin-top: auto;
+  padding-top: 18px;
+  border-top: 1px solid #303030;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+
+/* ========================================
+   LOGOUT
+======================================== */
+
+.admin-logout {
+  width: 100%;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 0 14px;
+  border: none;
+  border-radius: 9px;
+  background: transparent;
+  color: #a5a5a5;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.2s ease;
+}
+
+.admin-logout span {
+  width: 21px;
+  min-width: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.admin-logout p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.admin-logout:hover {
+  background: #2b2020;
+  color: #df7777;
+}
+
+
+/* ========================================
+   MOBILE
+======================================== */
+
+@media (max-width: 768px) {
+
+  .admin-sidebar {
+    width: 75px;
+    padding: 20px 10px;
+  }
+
+  .admin-logo {
+    justify-content: center;
+    padding: 5px 0 25px;
+  }
+
+  .admin-logo h2,
+  .admin-logo span,
+  .admin-link p,
+  .admin-logout p {
+    display: none;
+  }
+
+  .admin-link {
+    justify-content: center;
+    padding: 0;
+  }
+
+  .admin-logout {
+    justify-content: center;
+    padding: 0;
+  }
+}

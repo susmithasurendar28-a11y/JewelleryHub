@@ -1,0 +1,260 @@
+/* ================================
+   ADMIN LAYOUT
+================================ */
+
+.admin-layout {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  background: #f8f7f5;
+}
+
+
+/* ================================
+   ADD PRODUCT PAGE
+================================ */
+
+.add-product-page {
+  margin-left: 250px;
+  width: calc(100% - 250px);
+  min-height: 100vh;
+  padding: 30px 35px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+
+/* ================================
+   HEADER
+================================ */
+
+.add-product-header {
+  margin-bottom: 25px;
+}
+
+.add-product-header h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+  color: #2d2926;
+}
+
+.add-product-header p {
+  margin: 7px 0 0;
+  font-size: 14px;
+  color: #777;
+}
+
+
+/* ================================
+   FORM
+================================ */
+
+.add-product-form {
+  width: 100%;
+  max-width: 1100px;
+  box-sizing: border-box;
+}
+
+
+/* ================================
+   FORM SECTION
+================================ */
+
+.form-section {
+  background: #ffffff;
+  border: 1px solid #e8e3df;
+  border-radius: 10px;
+  padding: 22px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.form-section h2 {
+  margin: 0 0 20px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #302b28;
+}
+
+
+/* ================================
+   FORM GRID
+================================ */
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px 22px;
+}
+
+
+/* ================================
+   FORM GROUP
+================================ */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.form-group label {
+  margin-bottom: 7px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #4b4541;
+}
+
+
+/* ================================
+   INPUTS
+================================ */
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  height: 42px;
+  padding: 0 12px;
+  border: 1px solid #d9d3cf;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #333;
+  font-size: 13px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #9b7b62;
+  box-shadow: 0 0 0 2px rgba(155, 123, 98, 0.08);
+}
+
+.form-group input::placeholder {
+  color: #aaa;
+}
+
+
+/* ================================
+   SMALL TEXT
+================================ */
+
+.form-group small {
+  margin-top: 6px;
+  font-size: 11px;
+  color: #888;
+}
+
+
+/* ================================
+   IMAGE PREVIEW
+================================ */
+
+.image-preview {
+  margin-top: 18px;
+  width: 130px;
+  height: 130px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f7f7f7;
+}
+
+.image-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+/* ================================
+   BUTTONS
+================================ */
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  margin-top: 5px;
+  padding-bottom: 20px;
+}
+
+.cancel-btn,
+.save-product-btn {
+  height: 40px;
+  padding: 0 20px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background: #ffffff;
+  color: #555;
+  border: 1px solid #d5d0cc;
+}
+
+.cancel-btn:hover {
+  background: #f4f2f0;
+}
+
+.save-product-btn {
+  background: #302b28;
+  color: #ffffff;
+  border: 1px solid #302b28;
+}
+
+.save-product-btn:hover {
+  background: #1f1c1a;
+}
+
+
+/* ================================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 900px) {
+
+  .add-product-page {
+    margin-left: 220px;
+    width: calc(100% - 220px);
+    padding: 25px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .add-product-page {
+    margin-left: 0;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .add-product-header h1 {
+    font-size: 24px;
+  }
+
+  .form-section {
+    padding: 18px;
+  }
+
+  .form-buttons {
+    justify-content: stretch;
+  }
+
+  .cancel-btn,
+  .save-product-btn {
+    flex: 1;
+  }
+
+}

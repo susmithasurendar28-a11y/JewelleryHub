@@ -1,0 +1,513 @@
+/* =========================================
+   USER CATEGORY PRODUCTS PAGE
+========================================= */
+
+.category-page {
+  min-height: 100vh;
+  background: #faf9f7;
+  color: #2f2925;
+}
+
+
+/* =========================================
+   HEADING
+========================================= */
+
+.category-heading {
+  text-align: center;
+  padding: 45px 20px 32px;
+  background: #f7f1eb;
+}
+
+.small-heading {
+  margin: 0 0 8px;
+  color: #a27b55;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+}
+
+.category-heading h1 {
+  margin: 0;
+  color: #2e2925;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 38px;
+  font-weight: 400;
+}
+
+.heading-line {
+  width: 50px;
+  height: 2px;
+  margin: 15px auto 0;
+  background: #b58a60;
+}
+
+
+/* =========================================
+   PRODUCTS AREA
+========================================= */
+
+.category-products {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 42px 35px 70px;
+  box-sizing: border-box;
+}
+
+
+/* =========================================
+   PRODUCTS GRID
+========================================= */
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px;
+}
+
+
+/* =========================================
+   PRODUCT CARD
+========================================= */
+
+.category-page .product-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+
+  background: #ffffff;
+
+  border: 1px solid #e7ddd3;
+  border-radius: 8px;
+
+  overflow: hidden;
+
+  text-decoration: none;
+  color: #2e2925;
+
+  box-shadow: 0 3px 10px rgba(70, 55, 40, 0.06);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.category-page .product-card:hover {
+  transform: translateY(-4px);
+
+  border-color: #d2b79d;
+
+  box-shadow: 0 10px 25px rgba(70, 55, 40, 0.12);
+}
+
+
+/* =========================================
+   PRODUCT IMAGE
+========================================= */
+
+.category-page .product-image-wrapper {
+  position: relative;
+
+  width: 100%;
+  height: 220px;
+
+  overflow: hidden;
+
+  background: #f3eee8;
+}
+
+.category-page .product-image {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+  object-position: center;
+
+  transition: transform 0.4s ease;
+}
+
+.category-page .product-card:hover .product-image {
+  transform: scale(1.04);
+}
+
+
+/* =========================================
+   PRODUCT INFORMATION
+========================================= */
+
+.category-page .product-info {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 14px 16px 16px;
+
+  background: #ffffff;
+}
+
+
+/* =========================================
+   PRODUCT NAME
+========================================= */
+
+.category-page .product-info h3 {
+  width: 100%;
+
+  margin: 0 0 9px;
+
+  text-align: left;
+
+  color: #302a26;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 18px;
+
+  font-weight: 600;
+
+  line-height: 1.3;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+
+/* =========================================
+   PRICE + RATING
+========================================= */
+
+.category-page .product-details {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  width: 100%;
+
+  gap: 10px;
+
+  margin-bottom: 13px;
+
+  text-align: left;
+}
+
+
+/* =========================================
+   PRICE
+========================================= */
+
+.category-page .product-details .product-price {
+  color: #8f6039;
+
+  font-size: 15px !important;
+
+  font-weight: 600 !important;
+
+  line-height: 1.2;
+
+  white-space: nowrap;
+}
+
+
+/* =========================================
+   RATING
+========================================= */
+
+.category-page .product-details .product-rating {
+  display: inline-flex;
+
+  align-items: center;
+
+  padding: 4px 7px;
+
+  background: #f8f0e8;
+
+  border-radius: 4px;
+
+  color: #806143;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  white-space: nowrap;
+}
+
+
+/* =========================================
+   WISHLIST BUTTON
+========================================= */
+
+.category-page .wishlist-button {
+  width: 100%;
+
+  height: 38px;
+
+  margin-top: 0;
+
+  background: #ffffff;
+
+  border: 1px solid #cbb39b;
+
+  border-radius: 5px;
+
+  color: #604a38;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 0.7px;
+
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.category-page .wishlist-button:hover {
+  background: #302a26;
+
+  border-color: #302a26;
+
+  color: #ffffff;
+}
+
+
+/* =========================================
+   WISHLIST ADDED
+========================================= */
+
+.category-page .wishlist-added {
+  background: #f3e7da;
+
+  border-color: #c8a98a;
+
+  color: #895f3e;
+}
+
+.category-page .wishlist-added:hover {
+  background: #302a26;
+
+  border-color: #302a26;
+
+  color: #ffffff;
+}
+
+
+/* =========================================
+   LOADING
+========================================= */
+
+.category-page .loading {
+  min-height: 250px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  color: #806f61;
+
+  font-size: 15px;
+}
+
+
+/* =========================================
+   NO PRODUCTS
+========================================= */
+
+.category-page .no-products {
+  min-height: 300px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+}
+
+.category-page .no-products h2 {
+  margin: 0 0 8px;
+
+  color: #302a26;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 27px;
+
+  font-weight: 400;
+}
+
+.category-page .no-products p {
+  margin: 0;
+
+  color: #77706a;
+
+  font-size: 14px;
+}
+
+
+/* =========================================
+   LAPTOP
+========================================= */
+
+@media (max-width: 1100px) {
+
+  .products-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .category-page .product-image-wrapper {
+    height: 215px;
+  }
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 800px) {
+
+  .category-products {
+    padding: 38px 25px 60px;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 18px;
+  }
+
+  .category-page .product-image-wrapper {
+    height: 220px;
+  }
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 550px) {
+
+  .category-heading {
+    padding: 38px 15px 30px;
+  }
+
+  .category-heading h1 {
+    font-size: 32px;
+  }
+
+  .category-products {
+    padding: 32px 12px 50px;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 12px;
+  }
+
+  .category-page .product-image-wrapper {
+    height: 175px;
+  }
+
+  .category-page .product-info {
+    padding: 12px 10px 13px;
+  }
+
+  .category-page .product-info h3 {
+    width: 100%;
+
+    font-size: 15px;
+
+    margin-bottom: 7px;
+
+    text-align: left;
+  }
+
+  .category-page .product-details {
+    justify-content: flex-start;
+
+    gap: 8px;
+
+    margin-bottom: 10px;
+  }
+
+  .category-page .product-details .product-price {
+    font-size: 19px !important;
+
+    font-weight: 800 !important;
+  }
+
+  .category-page .product-details .product-rating {
+    padding: 3px 5px;
+
+    font-size: 10px;
+  }
+
+  .category-page .wishlist-button {
+    height: 35px;
+
+    font-size: 8px;
+
+    letter-spacing: 0.4px;
+  }
+}
+
+
+/* =========================================
+   VERY SMALL MOBILE
+========================================= */
+
+@media (max-width: 380px) {
+
+  .products-grid {
+    gap: 9px;
+  }
+
+  .category-page .product-image-wrapper {
+    height: 165px;
+  }
+
+  .category-page .product-info h3 {
+    font-size: 14px;
+  }
+
+  .category-page .product-details .product-price {
+    font-size: 17px !important;
+  }
+
+  .category-page .product-details .product-rating {
+    font-size: 9px;
+  }
+
+  .category-page .wishlist-button {
+    height: 34px;
+
+    font-size: 7.5px;
+  }
+}

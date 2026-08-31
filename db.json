@@ -1,0 +1,885 @@
+{
+  "products": [
+    {
+      "productName": "Gold Ring",
+      "category": "Rings",
+      "price": 18998,
+      "stock": 10,
+      "rating": 4.8,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScTAG0s58sNQCZX7BLIPGJiBc7wVA1QkXjYoMKPHP3bA&s=10",
+      "id": "new001"
+    },
+    {
+      "productName": "Elegant Necklace",
+      "category": "Necklaces",
+      "price": 24999,
+      "stock": 8,
+      "rating": 4.8,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2s35mCybJMNqqSGpDBqYbE9X2vehuoGBUleaqJ6yKTg&s=10",
+      "id": "new002"
+    },
+    {
+      "id": "new003",
+      "productName": "Designer Earrings",
+      "category": "Earrings",
+      "price": 12999,
+      "stock": 10,
+      "rating": 4.7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxCvTQSoNAlnG6uY0Twvk24VoIXVisENY_v4ShQwBXeg&s=10",
+      "newArrival": true
+    },
+    {
+      "id": "new004",
+      "productName": "Elegant Bracelet",
+      "category": "Bracelets",
+      "price": 9999,
+      "stock": 10,
+      "rating": 4.7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYFXcEtXbiSd1QN1PDmkQYCNG_VF3btx62TwSuEPCNbQ&s=10",
+      "newArrival": true
+    },
+    {
+      "id": "new005",
+      "productName": "Designer Earrings",
+      "category": "Earrings",
+      "price": 12999,
+      "stock": 10,
+      "rating": 4.7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuo7XSnyBJkD0NLgCG_nm94x8DYUK1-x-w56QsKPTVFQ&s=10",
+      "newArrival": true
+    },
+    {
+      "id": "new006",
+      "productName": "Designer Bangles",
+      "category": "Bangles",
+      "price": 12999,
+      "stock": 10,
+      "rating": 4.7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLEJJzPJkUEOVUTD7V5G5tcbHuedj6255PrG0Tbv0N1w&s=10",
+      "newArrival": true
+    },
+    {
+      "id": "new007",
+      "productName": "Elegant Bracelet",
+      "category": "Bracelets",
+      "price": 9999,
+      "stock": 10,
+      "rating": 4.7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA182Fr8Y3lgFe-fxUhI0xGK97c9gAwDqRrNPK6qd1wQ&s=10",
+      "newArrival": true
+    },
+    {
+      "id": "new008",
+      "productName": "Designer Bangles",
+      "category": "Bangles",
+      "price": 12999,
+      "stock": 10,
+      "rating": 4.7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGHt_7cwJ6pKlm-9jzfyU5F1En--qsWWKEpn_ppFQlVA&s=10",
+      "newArrival": true
+    },
+    {
+      "id": "new009",
+      "productName": "Elegant Gold Necklace",
+      "category": "Necklaces",
+      "price": 24999,
+      "stock": 8,
+      "rating": 4.8,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ2SE9_YMnB29Yn5RWzpNTQUelwzbYJ4-aMO7kT5eqJg&s=10",
+      "newArrival": true
+    },
+    {
+      "id": "new010",
+      "productName": "Elegant Gold Necklace",
+      "category": "Necklaces",
+      "price": 24999,
+      "stock": 8,
+      "rating": 4.8,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAe3sI-sYk47XdnDCSFkYHYRNaJy0tGA-vGN9hhK_T6w&s=10",
+      "newArrival": true
+    },
+    {
+      "id": "new011",
+      "productName": "Elegant Gold Necklace",
+      "category": "Necklaces",
+      "price": 24999,
+      "stock": 8,
+      "rating": 4.8,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa-H9JItErRaeZ9QsVQKRfiEzEyUX5kUhd7IY4Outbpw&s=10",
+      "newArrival": true
+    },
+    {
+      "id": "new012",
+      "productName": "Elegant Gold Necklace",
+      "category": "Necklaces",
+      "price": 24999,
+      "stock": 8,
+      "rating": 4.8,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGB-3yy6nGF-tysFQl9uP3DN-sRTil-kv49q8MiHtsgA&s=10",
+      "newArrival": true
+    },
+    {
+      "id": "r001",
+      "productName": "Classic Diamond Ring",
+      "category": "Rings",
+      "price": 18999,
+      "stock": 10,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=600&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "r002",
+      "productName": "Elegant Gold Ring",
+      "category": "Rings",
+      "price": 14999,
+      "stock": 12,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=600&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "r003",
+      "productName": "Classic Gemstone Ring",
+      "category": "Rings",
+      "price": 12999,
+      "stock": 8,
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1627293509201-cd0c780043e6?w=600&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "r004",
+      "productName": "Luxury Gold Ring",
+      "category": "Rings",
+      "price": 16999,
+      "stock": 7,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1586104195538-050b9f74f58e?w=600&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "r005",
+      "productName": "Blue Gemstone Ring",
+      "category": "Rings",
+      "price": 9999,
+      "stock": 10,
+      "rating": 4.5,
+      "image": "https://media.istockphoto.com/id/1209865601/photo/beautiful-old-golden-ring-with-blue-gemstone-isolated-on-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=F6YNY13110JAKUOS1V0B6iUcX6KCkGgTu2MylLUWM8U="
+    },
+    {
+      "id": "r006",
+      "productName": "Modern Diamond Ring",
+      "category": "Rings",
+      "price": 21999,
+      "stock": 6,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1713950920412-97799efdf870?w=600&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "r007",
+      "productName": "Premium Gold Ring",
+      "category": "Rings",
+      "price": 17999,
+      "stock": 9,
+      "rating": 4.7,
+      "image": "https://plus.unsplash.com/premium_photo-1678749105251-b15e8fd164bf?w=600&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "r008",
+      "productName": "Minimal Diamond Ring",
+      "category": "Rings",
+      "price": 11999,
+      "stock": 13,
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1561812350-932aed735105?w=600&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "r009",
+      "productName": "Elegant Stone Ring",
+      "category": "Rings",
+      "price": 13999,
+      "stock": 8,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1561995734-ef4b62bb6586?w=600&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "r010",
+      "productName": "Luxury Diamond Ring",
+      "category": "Rings",
+      "price": 24999,
+      "stock": 5,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1635767798595-a1d2c9deacb4?w=600&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "n001",
+      "productName": "Elegant Gold Necklace",
+      "category": "Necklaces",
+      "price": 24999,
+      "stock": 8,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1601121141418-c1caa10a2a0b?w=600&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "n002",
+      "productName": " Gold Necklace",
+      "category": "Necklaces",
+      "price": 28999,
+      "stock": 6,
+      "rating": 4.9,
+      "image": "https://media.istockphoto.com/id/1276740597/photo/indian-traditional-gold-necklace.webp?a=1&b=1&s=612x612&w=0&k=20&c=hPxwL517Qk0HuDOcs3E_LWgVzZLJQNnpueX58kMRbmE="
+    },
+    {
+      "id": "n003",
+      "productName": "Classic Gold Necklace",
+      "category": "Necklaces",
+      "price": 21999,
+      "stock": 10,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1600862754152-80a263dd564f?w=600&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "n004",
+      "productName": "Premium Gold Necklace",
+      "category": "Necklaces",
+      "price": 32999,
+      "stock": 5,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1758995115682-1452a1a9e35b?w=600&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "n005",
+      "productName": "Diamond Necklace",
+      "category": "Necklaces",
+      "price": 45999,
+      "stock": 4,
+      "rating": 4.9,
+      "image": "https://media.istockphoto.com/id/1355271375/photo/diamond-necklace-with-diamond-earrings-closeup-stock-photo.jpg?s=2048x2048&w=is&k=20&c=3GDhQp7YdGp6niM11iu7z0eVs1c7_sCVtL9cYWBTSjg="
+    },
+    {
+      "id": "n006",
+      "productName": "Gold Diamond Necklace Set",
+      "category": "Necklaces",
+      "price": 38999,
+      "stock": 7,
+      "rating": 4.8,
+      "image": "https://media.istockphoto.com/id/1658696488/photo/close-up-of-gold-and-diamond-necklace-with-pair-of-earrings.webp?a=1&b=1&s=612x612&w=0&k=20&c=KqG53T0ieIVNLPgoEBT4lQt_qDrEd9n0VslzVDnQ11E="
+    },
+    {
+      "id": "n007",
+      "productName": "Designer Gold Necklace",
+      "category": "Necklaces",
+      "price": 27999,
+      "stock": 9,
+      "rating": 4.7,
+      "image": "https://images.pexels.com/photos/29385413/pexels-photo-29385413.jpeg"
+    },
+    {
+      "id": "n008",
+      "productName": "Gemstone Necklace",
+      "category": "Necklaces",
+      "price": 23999,
+      "stock": 8,
+      "rating": 4.6,
+      "image": "https://media.istockphoto.com/id/2212704901/photo/premium-gemstone-necklace-styled-on-luxurious-green-cloth-background.jpg?b=1&s=612x612&w=0&k=20&c=NLFt1WUJ5FIyJSCE2901M45QJyqoJ2g1u4Fyo194dSo="
+    },
+    {
+      "id": "n009",
+      "productName": "Elegant Pearl Necklace",
+      "category": "Necklaces",
+      "price": 19999,
+      "stock": 11,
+      "rating": 4.7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmBLJw2VLaxZIwBYud9OBXoZczbBO3aVZYTSRM-vYyAw&s=10"
+    },
+    {
+      "id": "n010",
+      "productName": "Luxury Necklace",
+      "category": "Necklaces",
+      "price": 35999,
+      "stock": 5,
+      "rating": 4.9,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9yMHtbkq1M-MOJox9BHyduhZfR6Xgu_oavlnsR0Dw3Q&s=10"
+    },
+    {
+      "id": "e001",
+      "productName": "Golden Designer Earrings",
+      "category": "Earrings",
+      "price": 7999,
+      "stock": 10,
+      "rating": 4.7,
+      "image": "https://media.istockphoto.com/id/1133525210/photo/pair-of-fancy-golden-designer-earrings-closeup-macro-image-on-red-background.jpg?s=612x612&w=0&k=20&c=ZUknXtyeMhsS9Tdd2nRt8DkOTHc-6tmeG-KdTV_ODLU="
+    },
+    {
+      "id": "e002",
+      "productName": "Classic Gold Earrings",
+      "category": "Earrings",
+      "price": 6499,
+      "stock": 12,
+      "rating": 4.6,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbbp2PcZCMTky1gFI5-iMwBpTzZuJ_kuWz_07Lng80pw&s=10"
+    },
+    {
+      "id": "e003",
+      "productName": "Traditional Gold Earrings",
+      "category": "Earrings",
+      "price": 8999,
+      "stock": 8,
+      "rating": 4.8,
+      "image": "https://media.istockphoto.com/id/1258768588/photo/beautiful-golden-pair-of-earrings-luxury-female-jewelry-indian-traditional-jewellery-indian.jpg?s=612x612&w=0&k=20&c=YGq_bgrDrSULy6E3CjUWXyos0C7YkW8mWH-T0YeekEU="
+    },
+    {
+      "id": "e004",
+      "productName": "Rajasthani Gold Earrings",
+      "category": "Earrings",
+      "price": 9499,
+      "stock": 7,
+      "rating": 4.7,
+      "image": "https://media.istockphoto.com/id/1488559282/photo/indian-rajasthani-stylish-golden-earrings-jewellery.jpg?s=612x612&w=0&k=20&c=JZUHrwSSNV443fb_dIu0meMAT8WkBJfXvVs5M7rNi9M="
+    },
+    {
+      "id": "e005",
+      "productName": "Fashion Gold Earrings",
+      "category": "Earrings",
+      "price": 7499,
+      "stock": 11,
+      "rating": 4.5,
+      "image": "https://media.istockphoto.com/id/1162902447/photo/fancy-designer-golden-earrings-pair-for-woman-fashion.jpg?s=612x612&w=0&k=20&c=nJz0NRqK9gaPOts9muQ7m1hZub7npHxrn9olzii6teA="
+    },
+    {
+      "id": "e006",
+      "productName": "Diamond Pearl Earrings",
+      "category": "Earrings",
+      "price": 15999,
+      "stock": 6,
+      "rating": 4.9,
+      "image": "https://media.istockphoto.com/id/176224968/photo/pair-of-gold-earrings-with-diamonds-and-pearls-isolated.jpg?s=612x612&w=0&k=20&c=9McmgBvOCLdCexjJiFXA88S1O8jwolHeYKdTa4nKXEY="
+    },
+    {
+      "id": "e007",
+      "productName": "Elegant Gold Earrings",
+      "category": "Earrings",
+      "price": 6999,
+      "stock": 10,
+      "rating": 4.6,
+      "image": "https://media.istockphoto.com/id/1403145863/photo/earrings.jpg?s=612x612&w=0&k=20&c=NLOqVNvIjOLM_pdhV_xth7-ou-DZyLdnqHIC6S3ocW0="
+    },
+    {
+      "id": "e008",
+      "productName": "Gemstone Gold Earrings",
+      "category": "Earrings",
+      "price": 10999,
+      "stock": 9,
+      "rating": 4.8,
+      "image": "https://media.istockphoto.com/id/1415774738/photo/golden-earrings-with-gemstone-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=VNArreI6h6Ehd1C1ARACyNMmx8xK-QeiYOclidDq1S4="
+    },
+    {
+      "id": "e009",
+      "productName": "Pearl Halo Earrings",
+      "category": "Earrings",
+      "price": 12999,
+      "stock": 6,
+      "rating": 4.9,
+      "image": "https://media.istockphoto.com/id/1278587349/photo/yellow-pearl-earring-with-prong-studded-diamond-halo-earring-in-yellow-gold.jpg?s=612x612&w=0&k=20&c=YxTyqCUaFTY4ZyjT8BEewojnDKkg976NI1_4gc5ZDao="
+    },
+    {
+      "id": "e010",
+      "productName": "Classic Fashion Earrings",
+      "category": "Earrings",
+      "price": 5499,
+      "stock": 14,
+      "rating": 4.5,
+      "image": "https://media.istockphoto.com/id/985954854/photo/fancy-imitation-jewelry-pair-of-earrings-on-white-background.jpg?s=612x612&w=0&k=20&c=vEeTW3MB6MqTvdYrwRkr7NKRPyr6RzAFI2dgpMika5o="
+    },
+    {
+      "id": "e011",
+      "productName": "Sterling Silver Earrings",
+      "category": "Earrings",
+      "price": 4999,
+      "stock": 15,
+      "rating": 4.6,
+      "image": "https://media.istockphoto.com/id/1486221162/photo/925-sterling-silver-round-brilliant-cubic-zirconia-solitaire-stud-earrings.jpg?s=612x612&w=0&k=20&c=13o0ln2slMkF4wH4--sT82bReeiCVvQh0uEJHVQUqGE="
+    },
+    {
+      "id": "e012",
+      "productName": "Traditional Mirror Earrings",
+      "category": "Earrings",
+      "price": 8499,
+      "stock": 8,
+      "rating": 4.7,
+      "image": "https://media.istockphoto.com/id/2255283971/photo/pair-of-traditional-golden-mirror-work-earrings.jpg?s=612x612&w=0&k=20&c=wI03zcWY_-FI2njbQ8PvpsldX90bot9h7Bl9fHYhzvM="
+    },
+    {
+      "id": "e013",
+      "productName": "Round Diamond Earrings",
+      "category": "Earrings",
+      "price": 19999,
+      "stock": 5,
+      "rating": 4.9,
+      "image": "https://media.istockphoto.com/id/1390616610/photo/round-diamond-earrings.jpg?s=612x612&w=0&k=20&c=x9KxBbapmuOwYbOlZujjPkLy27amt7AUYMmQguEdF6U="
+    },
+    {
+      "id": "e014",
+      "productName": "Elegant Diamond Earrings",
+      "category": "Earrings",
+      "price": 17999,
+      "stock": 6,
+      "rating": 4.9,
+      "image": "https://media.istockphoto.com/id/1168094963/photo/diamond-earrings.jpg?s=612x612&w=0&k=20&c=x9sOJwPn_dpO1O_L0E8ZhmC3ztan0O63terzuYzVZWw="
+    },
+    {
+      "id": "b001",
+      "productName": "Elegant Gold Bracelet",
+      "category": "Bracelets",
+      "price": 8999,
+      "stock": 10,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1676120963306-8969fa6a810e?w=600&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "b002",
+      "productName": "Classic Gold Bracelet",
+      "category": "Bracelets",
+      "price": 10999,
+      "stock": 8,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=600&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "b003",
+      "productName": "Luxury Diamond Bracelet",
+      "category": "Bracelets",
+      "price": 15999,
+      "stock": 6,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1689367436629-1d288f1e23b6?w=600&auto=format&fit=crop&q=60"
+    },
+    {
+      "id": "b004",
+      "productName": "Designer Gold Bracelet",
+      "category": "Bracelets",
+      "price": 12999,
+      "stock": 9,
+      "rating": 4.7,
+      "image": "https://images.pexels.com/photos/38827915/pexels-photo-38827915.jpeg"
+    },
+    {
+      "id": "b005",
+      "productName": "Elegant Pearl Bracelet",
+      "category": "Bracelets",
+      "price": 7499,
+      "stock": 12,
+      "rating": 4.6,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPavcMRsEMBQnN1vL8mUqcWc0q2IaGHFPnP5NDLeF86g&s=10"
+    },
+    {
+      "id": "b006",
+      "productName": "Premium Gold Bracelet",
+      "category": "Bracelets",
+      "price": 13999,
+      "stock": 7,
+      "rating": 4.8,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7sSvDR-gWdrYAC55Hi9puUqlo3RlU0RpkldlxKnzZ8Q&s=10"
+    },
+    {
+      "id": "b007",
+      "productName": "Classic Diamond Bracelet",
+      "category": "Bracelets",
+      "price": 17999,
+      "stock": 5,
+      "rating": 4.9,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwzJ69x8rATXmFoPaByYuoPTQGaJqJc8PJHk1oHic4uw&s=10"
+    },
+    {
+      "id": "b008",
+      "productName": "Modern Gold Bracelet",
+      "category": "Bracelets",
+      "price": 9999,
+      "stock": 10,
+      "rating": 4.7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNBJncjP-r04_KjQRPD5waeF5FTq70ghuHWhQ2UZnDNw&s=10"
+    },
+    {
+      "id": "b009",
+      "productName": "Elegant Stone Bracelet",
+      "category": "Bracelets",
+      "price": 8499,
+      "stock": 11,
+      "rating": 4.6,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8VL_Ov_4ETmb_g8gmx_H6ZdeS-UrGXq-u5M0ANDcpfw&s=10"
+    },
+    {
+      "id": "b010",
+      "productName": "Luxury Pearl Bracelet",
+      "category": "Bracelets",
+      "price": 11999,
+      "stock": 8,
+      "rating": 4.8,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt3gtySqLiMRoKtoKou7At8Slq8jEGWT6VHPTdkzih6w&s"
+    },
+    {
+      "id": "b011",
+      "productName": "Stylish Gold Bracelet",
+      "category": "Bracelets",
+      "price": 9499,
+      "stock": 10,
+      "rating": 4.7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaUDpJZJPvuwJpocjLzHPrd4iKK53SGwwRteJgzXThIA&s=10"
+    },
+    {
+      "id": "b012",
+      "productName": "Gold Chain Bracelet",
+      "category": "Bracelets",
+      "price": 11499,
+      "stock": 9,
+      "rating": 4.7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZbng6sSzcyyYV03R3oBnFnFKlBjrUlsvhbef7bl7EMw&s=10"
+    },
+    {
+      "id": "b013",
+      "productName": "Diamond Charm Bracelet",
+      "category": "Bracelets",
+      "price": 18999,
+      "stock": 5,
+      "rating": 4.9,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvYTsweuj7EF34MnTs3pjtJLCSoJIb5HYu2ff-Sqofjg&s=10"
+    },
+    {
+      "id": "b014",
+      "productName": "Minimal Gold Bracelet",
+      "category": "Bracelets",
+      "price": 6999,
+      "stock": 14,
+      "rating": 4.6,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSggLwGua6qji5r2AB7HixJPzuR7HYHRckUeH_VF4zMMw&s=10"
+    },
+    {
+      "id": "b015",
+      "productName": "Premium Designer Bracelet",
+      "category": "Bracelets",
+      "price": 14999,
+      "stock": 6,
+      "rating": 4.8,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW-fjgd-7cnY0db18F7Y1LiATJ10KzBJZ64BU8fPaYFQ&s=10"
+    },
+    {
+      "id": "bangle-1",
+      "productName": "Elegant Gold Bangle",
+      "category": "bangles",
+      "price": 18999,
+      "stock": 10,
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1690175867343-2af70ea57537?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmFuZ2xlfGVufDB8fDB8fHww"
+    },
+    {
+      "id": "bangle-4",
+      "productName": "Designer Gold Bangle",
+      "category": "bangles",
+      "price": 19999,
+      "stock": 7,
+      "rating": 4.5,
+      "image": "https://media.istockphoto.com/id/1370855403/photo/woman-jewellery-bangles.webp?a=1&b=1&s=612x612&w=0&k=20&c=tmA03lTzvpFfNp0QqI413FBHIwcoN7heKI9MUyc_tZA="
+    },
+    {
+      "id": "bangle-5",
+      "productName": "Silver Bangle",
+      "category": "bangles",
+      "price": 8999,
+      "stock": 15,
+      "rating": 4.4,
+      "image": "https://media.istockphoto.com/id/2214437792/photo/a-pair-of-silver-bangles-also-known-as-churi-in-bangladesh-is-an-essential-ornament-for-women.webp?a=1&b=1&s=612x612&w=0&k=20&c=xUzVzu-VlkFZlndCyxgJWQAgDfksPsstGQXfSUfUu4c="
+    },
+    {
+      "id": "bangle-6",
+      "productName": "Elegant Designer Bangle",
+      "category": "bangles",
+      "price": 16999,
+      "stock": 9,
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1740567389909-b36e9cadbef9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fGJhbmdsZXxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "bangle-7",
+      "productName": "Luxury Gold Bangle",
+      "category": "bangles",
+      "price": 28999,
+      "stock": 6,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1728381031272-ba3f537feadd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z29sZCUyMGJhbmdsZXN8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "bangle-8",
+      "productName": "Classic Jewellery Bangle",
+      "category": "bangles",
+      "price": 21999,
+      "stock": 10,
+      "rating": 4.6,
+      "image": "https://media.istockphoto.com/id/89909141/photo/gold-bangles.webp?a=1&b=1&s=612x612&w=0&k=20&c=TlXUB3XF0y4s5S7gNHIsKEDyw5Sy6YjhQhxhV0Udy4Q="
+    },
+    {
+      "id": "bangle-9",
+      "productName": "Traditional Wedding Bangle",
+      "category": "bangles",
+      "price": 32999,
+      "stock": 5,
+      "rating": 4.9,
+      "image": "https://media.istockphoto.com/id/1308181436/photo/indian-traditional-wedding-gold-bangles.webp?a=1&b=1&s=612x612&w=0&k=20&c=PDXwZ_y7PhgtZGO4kfws76gsZQvlCmuqI2j8y_Ilo3Q="
+    },
+    {
+      "id": "bangle-10",
+      "productName": "Elegant Gold Jewellery",
+      "category": "bangles",
+      "price": 23999,
+      "stock": 8,
+      "rating": 4.6,
+      "image": "https://images.pexels.com/photos/39012014/pexels-photo-39012014.jpeg"
+    },
+    {
+      "id": "bangle-11",
+      "productName": "Modern Gold Bangle",
+      "category": "bangles",
+      "price": 17999,
+      "stock": 11,
+      "rating": 4.5,
+      "image": "https://images.pexels.com/photos/20493839/pexels-photo-20493839.jpeg"
+    },
+    {
+      "id": "bangle-12",
+      "productName": "Premium Gold Bangle",
+      "category": "bangles",
+      "price": 26999,
+      "stock": 7,
+      "rating": 4.7,
+      "image": "https://images.pexels.com/photos/20429596/pexels-photo-20429596.jpeg"
+    },
+    {
+      "id": "bangle-13",
+      "productName": "Stylish Gold Bangle",
+      "category": "bangles",
+      "price": 19999,
+      "stock": 9,
+      "rating": 4.5,
+      "image": "https://images.pexels.com/photos/24012397/pexels-photo-24012397.jpeg"
+    },
+    {
+      "id": "bangle-14",
+      "productName": "Beautiful Traditional Bangle",
+      "category": "bangles",
+      "price": 24999,
+      "stock": 6,
+      "rating": 4.7,
+      "image": "https://images.pexels.com/photos/8609559/pexels-photo-8609559.jpeg"
+    },
+    {
+      "id": "p002",
+      "productName": "Classic Pearl Pendant",
+      "category": "Pendants",
+      "price": 1899,
+      "stock": 15,
+      "rating": 4.6,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRc6GKMH6I0r-Fq1PL-wAbHRM2AixvzKNPv2k4tY9QTA&s=10"
+    },
+    {
+      "id": "p003",
+      "productName": "Luxury Stone Pendant",
+      "category": "Pendants",
+      "price": 3299,
+      "stock": 8,
+      "rating": 4.8,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMKe9HzeR9Kfs7tpXw7NQWs_Wm48kmV7d2wBlvo_1hsA&s=10"
+    },
+    {
+      "id": "p004",
+      "productName": "Delicate Heart Pendant",
+      "category": "Pendants",
+      "price": 1599,
+      "stock": 20,
+      "rating": 4.5,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMtHo6g50j2ld9plj7YKvxQS3pjYV3V2u9zVh0G8fHwQ&s=10"
+    },
+    {
+      "id": "p005",
+      "productName": "Royal Diamond Pendant",
+      "category": "Pendants",
+      "price": 4599,
+      "stock": 6,
+      "rating": 4.9,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp3McFmuhlIvgZ5lbor8IfSTzdMK23m3rdTZteMYW61A&s=10"
+    },
+    {
+      "id": "p006",
+      "productName": "Minimal Gold Pendant",
+      "category": "Pendants",
+      "price": 2199,
+      "stock": 14,
+      "rating": 4.6,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6sYTtyoPO2x9ZSrH2I7UZQ0Iy3HX47ohNMkaPs0JEqA&s"
+    },
+    {
+      "id": "p007",
+      "productName": "Traditional Pendant",
+      "category": "Pendants",
+      "price": 2799,
+      "stock": 10,
+      "rating": 4.7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz_UVJ_X5LUHFAJMOdO-3QtT5er-wRfzD7B6NBR5T5nw&s=10"
+    },
+    {
+      "id": "p008",
+      "productName": "Elegant Floral Pendant",
+      "category": "Pendants",
+      "price": 2399,
+      "stock": 11,
+      "rating": 4.8,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvUEjdE_MuH4NgI63U5UGp6osO-yyh84rGTXnMOuzXQ&s=10"
+    },
+    {
+      "productName": "Gold Pendant",
+      "category": "Pendants",
+      "price": 2485,
+      "stock": 6,
+      "rating": 4.5,
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTE0bEoY-8ZCFzEGLMrS63sfIRwyPX7YQZmJwdrmC9piO6PDZxQNtcYY6bhGM0o4YZtfn3dtxnz1u6Zj1-AQfMDe0QZvgxL3Uy88noV762foVFb2v_pCuZS",
+      "id": "fJxFY0blVME"
+    }
+  ],
+  "users": [
+    {
+      "name": "chaya",
+      "email": "chayamanchuri@gmail.com",
+      "phone": "8374493931",
+      "password": "Chaya@123",
+      "id": "9BT2ws-9LJQ"
+    }
+  ],
+  "orders": [
+    {
+      "userId": "9BT2ws-9LJQ",
+      "userEmail": "chayamanchuri@gmail.com",
+      "customer": {
+        "name": "chaya",
+        "phone": "8374493931",
+        "address": "hyderabad",
+        "city": "hyderabad",
+        "state": "Telangana",
+        "pincode": "500085"
+      },
+      "products": [
+        {
+          "id": "e006",
+          "productName": "Diamond Pearl Earrings",
+          "category": "Earrings",
+          "price": 15999,
+          "stock": 6,
+          "rating": 4.9,
+          "image": "https://media.istockphoto.com/id/176224968/photo/pair-of-gold-earrings-with-diamonds-and-pearls-isolated.jpg?s=612x612&w=0&k=20&c=9McmgBvOCLdCexjJiFXA88S1O8jwolHeYKdTa4nKXEY=",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 15999,
+      "delivery": 0,
+      "total": 15999,
+      "status": "Shipped",
+      "paymentMethod": "Cash on Delivery",
+      "date": "31/8/2026",
+      "createdAt": "2026-08-31T05:19:26.086Z",
+      "id": "KfSBDM5JZLA"
+    },
+    {
+      "userId": "9BT2ws-9LJQ",
+      "userEmail": "chayamanchuri@gmail.com",
+      "customer": {
+        "name": "Susmitha Manchuri",
+        "phone": "8374493931",
+        "address": "Plot No. 402-403, Sneha pearl, Venkataramana colony, near gokul plots, K P H B Phase 9, Kukatpally.",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "pincode": "500085"
+      },
+      "products": [
+        {
+          "id": "new009",
+          "productName": "Elegant Gold Necklace",
+          "category": "Necklaces",
+          "price": 24999,
+          "stock": 8,
+          "rating": 4.8,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ2SE9_YMnB29Yn5RWzpNTQUelwzbYJ4-aMO7kT5eqJg&s=10",
+          "newArrival": true,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 49998,
+      "delivery": 0,
+      "total": 49998,
+      "status": "Confirmed",
+      "paymentMethod": "Cash on Delivery",
+      "date": "31/8/2026",
+      "createdAt": "2026-08-31T10:07:36.208Z",
+      "id": "93jYVZkiEs0"
+    },
+    {
+      "userId": "9BT2ws-9LJQ",
+      "userEmail": "chayamanchuri@gmail.com",
+      "customer": {
+        "name": "chaya",
+        "phone": "8374493931",
+        "address": "6-22//1 pacharamakulapalli Booragamanda",
+        "city": "Chittoor",
+        "state": "Andhra Pradesh",
+        "pincode": "517123"
+      },
+      "products": [
+        {
+          "id": "new002",
+          "productName": "Elegant Gold Necklace",
+          "category": "Necklaces",
+          "price": 24999,
+          "stock": 8,
+          "rating": 4.8,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2s35mCybJMNqqSGpDBqYbE9X2vehuoGBUleaqJ6yKTg&s=10",
+          "newArrival": true,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 24999,
+      "delivery": 0,
+      "total": 24999,
+      "status": "Shipped",
+      "paymentMethod": "Cash on Delivery",
+      "date": "31/8/2026",
+      "createdAt": "2026-08-31T10:11:19.562Z",
+      "id": "wAQW3p-Pvxg"
+    },
+    {
+      "userId": "9BT2ws-9LJQ",
+      "userEmail": "chayamanchuri@gmail.com",
+      "customer": {
+        "name": "SUSMITHA Manchuri",
+        "phone": "8374493931",
+        "address": "6-22//1 pacharamakulapalli Booragamanda",
+        "city": "Chittoor",
+        "state": "Andhra Pradesh",
+        "pincode": "517123"
+      },
+      "products": [
+        {
+          "id": "r001",
+          "productName": "Classic Diamond Ring",
+          "category": "Rings",
+          "price": 18999,
+          "stock": 10,
+          "rating": 4.8,
+          "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=600&auto=format&fit=crop&q=60",
+          "quantity": 2
+        }
+      ],
+      "subtotal": 37998,
+      "delivery": 0,
+      "total": 37998,
+      "status": "Shipped",
+      "paymentMethod": "Cash on Delivery",
+      "date": "31/8/2026",
+      "createdAt": "2026-08-31T16:18:20.685Z",
+      "id": "Xy912vbInRg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,732 @@
+/* =====================================================
+   JEWELLERYHUB HOME PAGE
+===================================================== */
+
+.home-page {
+  min-height: 100vh;
+  background: #faf8f5;
+  color: #292522;
+}
+
+
+/* =====================================================
+   PREMIUM SPLIT BANNER
+===================================================== */
+
+.home-banner {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  background: #f3eee7;
+}
+
+
+/* =====================================================
+   SLIDE
+===================================================== */
+
+.banner-slide {
+  position: absolute;
+  inset: 0;
+
+  display: grid;
+  grid-template-columns: 40% 60%;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition: opacity 0.8s ease;
+}
+
+.banner-slide.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/* =====================================================
+   RIGHT SIDE IMAGE - NO SHADOW
+===================================================== */
+
+.banner-slide img {
+  grid-column: 2;
+  grid-row: 1;
+
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+  object-position: center center;
+
+  transition: none;
+}
+
+.banner-slide.show img {
+  transform: none;
+}
+
+
+/* =====================================================
+   LEFT SIDE CONTENT
+===================================================== */
+
+.banner-content {
+  grid-column: 1;
+  grid-row: 1;
+
+  position: relative;
+  z-index: 3;
+
+  height: 100%;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 40px 45px 40px 7vw;
+
+  background: linear-gradient(
+    135deg,
+    #f8f4ef 0%,
+    #eee5dc 100%
+  );
+
+  color: #2c2723;
+}
+
+
+/* =====================================================
+   SMALL TITLE
+===================================================== */
+
+.banner-content span {
+  display: block;
+
+  margin-bottom: 14px;
+
+  color: #9a7653;
+
+  font-size: 10px;
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+
+/* =====================================================
+   MAIN TITLE
+===================================================== */
+
+.banner-content h1 {
+  margin: 0 0 15px;
+
+  max-width: 390px;
+
+  color: #292522;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 44px;
+  font-weight: 400;
+
+  line-height: 1.1;
+}
+
+
+/* =====================================================
+   DESCRIPTION
+===================================================== */
+
+.banner-content p {
+  max-width: 350px;
+
+  margin: 0 0 24px;
+
+  color: #6e655e;
+
+  font-size: 14px;
+
+  line-height: 1.6;
+}
+
+
+/* =====================================================
+   BUTTON
+===================================================== */
+
+.banner-button {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: fit-content;
+
+  padding: 12px 24px;
+
+  background: #302a26;
+
+  color: #ffffff;
+
+  border: 1px solid #302a26;
+
+  text-decoration: none;
+
+  font-size: 10px;
+  font-weight: 700;
+
+  letter-spacing: 1px;
+
+  transition: all 0.3s ease;
+}
+
+.banner-button:hover {
+  background: transparent;
+  color: #302a26;
+}
+
+
+/* =====================================================
+   NO IMAGE OVERLAY
+===================================================== */
+
+.banner-overlay {
+  display: none;
+}
+
+
+/* =====================================================
+   BANNER DOTS
+===================================================== */
+
+.banner-dots {
+  position: absolute;
+
+  bottom: 18px;
+  left: 22%;
+
+  transform: translateX(-50%);
+
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+
+  z-index: 10;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+
+  padding: 0;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #b9aaa0;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.dot.active {
+  width: 24px;
+
+  border-radius: 10px;
+
+  background: #302a26;
+}
+
+
+/* =====================================================
+   SECTION HEADING
+===================================================== */
+
+.section-heading {
+  text-align: center;
+
+  margin-bottom: 40px;
+}
+
+.section-heading span {
+  display: block;
+
+  margin-bottom: 10px;
+
+  color: #9b8067;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+.section-heading h2 {
+  margin: 0;
+
+  color: #292522;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.section-heading p {
+  margin: 12px auto 0;
+
+  color: #77706a;
+
+  font-size: 14px;
+
+  line-height: 1.6;
+}
+
+
+/* =====================================================
+   CATEGORIES
+===================================================== */
+
+.categories-section {
+  padding: 75px 7%;
+
+  background: #faf8f5;
+}
+
+.category-grid {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 22px;
+
+  max-width: 1100px;
+
+  margin: 0 auto;
+}
+
+.category-card {
+  display: block;
+
+  overflow: hidden;
+
+  background: #ffffff;
+
+  border: 1px solid #eee8e1;
+
+  border-radius: 4px;
+
+  color: inherit;
+
+  text-decoration: none;
+
+  transition: all 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 15px 30px rgba(50, 40, 30, 0.10);
+}
+
+.category-image {
+  width: 100%;
+  height: 190px;
+
+  overflow: hidden;
+
+  background: #f3eee8;
+}
+
+.category-image img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+  object-position: center;
+
+  transition: transform 0.5s ease;
+}
+
+.category-card:hover .category-image img {
+  transform: scale(1.05);
+}
+
+.category-card-content {
+  padding: 17px;
+
+  text-align: center;
+}
+
+.category-card-content h3 {
+  margin: 0 0 7px;
+
+  color: #2d2926;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.category-shop-link {
+  color: #9a8068;
+
+  font-size: 10px;
+  font-weight: 700;
+
+  letter-spacing: 1px;
+}
+
+
+/* =====================================================
+   NEW ARRIVALS
+===================================================== */
+
+.new-section {
+  padding: 75px 7% 90px;
+
+  background: #f1ebe4;
+}
+
+.new-products {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 22px;
+
+  max-width: 1100px;
+
+  margin: 0 auto;
+}
+
+.new-product-card {
+  overflow: hidden;
+
+  background: #ffffff;
+
+  border: 1px solid #e7ded5;
+
+  transition: all 0.3s ease;
+}
+
+.new-product-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 15px 30px rgba(50, 40, 30, 0.10);
+}
+
+
+/* =====================================================
+   NEW PRODUCT IMAGE
+===================================================== */
+
+.new-product-image {
+  position: relative;
+
+  width: 100%;
+  height: 245px;
+
+  overflow: hidden;
+
+  background: #f4f0eb;
+}
+
+.new-product-image img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+  object-position: center;
+
+  transition: transform 0.5s ease;
+}
+
+.new-product-card:hover .new-product-image img {
+  transform: scale(1.04);
+}
+
+
+/* =====================================================
+   NEW LABEL
+===================================================== */
+
+.new-label {
+  position: absolute;
+
+  top: 12px;
+  left: 12px;
+
+  z-index: 2;
+
+  padding: 6px 10px;
+
+  background: #302a26;
+
+  color: #ffffff;
+
+  font-size: 9px;
+  font-weight: 700;
+
+  letter-spacing: 1px;
+}
+
+
+/* =====================================================
+   PRODUCT INFO
+===================================================== */
+
+.new-product-info {
+  padding: 18px;
+
+  text-align: center;
+}
+
+.new-product-info h3 {
+  margin: 0 0 9px;
+
+  color: #2d2926;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.new-product-info p {
+  margin: 0 0 15px;
+
+  color: #9b8067;
+
+  font-size: 15px;
+  font-weight: 700;
+}
+
+
+/* =====================================================
+   VIEW PRODUCT
+===================================================== */
+
+.new-product-info button {
+  width: 100%;
+
+  padding: 11px 15px;
+
+  background: transparent;
+
+  color: #403a35;
+
+  border: 1px solid #d6cbc0;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 0.7px;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.new-product-info button:hover {
+  background: #302a26;
+
+  color: #ffffff;
+
+  border-color: #302a26;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 1000px) {
+
+  .home-banner {
+    height: 400px;
+  }
+
+  .banner-slide {
+    grid-template-columns: 44% 56%;
+  }
+
+  .banner-content {
+    padding-left: 5vw;
+    padding-right: 25px;
+  }
+
+  .banner-content h1 {
+    font-size: 37px;
+  }
+
+  .banner-content p {
+    max-width: 300px;
+
+    font-size: 13px;
+  }
+
+  .banner-dots {
+    left: 22%;
+  }
+
+  .category-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .new-products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 600px) {
+
+  .home-banner {
+    height: 520px;
+  }
+
+  .banner-slide {
+    display: flex;
+
+    flex-direction: column;
+  }
+
+
+  /* IMAGE */
+
+  .banner-slide img {
+    width: 100%;
+
+    height: 55%;
+
+    flex-shrink: 0;
+
+    object-fit: cover;
+
+    object-position: center center;
+  }
+
+
+  /* CONTENT */
+
+  .banner-content {
+    width: 100%;
+
+    height: 45%;
+
+    padding: 22px 25px 30px;
+
+    justify-content: center;
+
+    box-sizing: border-box;
+  }
+
+  .banner-content span {
+    margin-bottom: 8px;
+
+    font-size: 8px;
+
+    letter-spacing: 2px;
+  }
+
+  .banner-content h1 {
+    margin-bottom: 8px;
+
+    font-size: 29px;
+  }
+
+  .banner-content p {
+    margin-bottom: 15px;
+
+    max-width: 310px;
+
+    font-size: 12px;
+
+    line-height: 1.5;
+  }
+
+  .banner-button {
+    padding: 10px 20px;
+
+    font-size: 9px;
+  }
+
+  .banner-overlay {
+    display: none;
+  }
+
+  .banner-dots {
+    left: 50%;
+
+    bottom: 14px;
+  }
+
+
+  /* CATEGORIES */
+
+  .categories-section,
+  .new-section {
+    padding: 55px 5%;
+  }
+
+  .section-heading {
+    margin-bottom: 30px;
+  }
+
+  .section-heading h2 {
+    font-size: 28px;
+  }
+
+  .section-heading p {
+    font-size: 13px;
+  }
+
+  .category-grid {
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 12px;
+  }
+
+  .category-image {
+    height: 150px;
+  }
+
+  .category-card-content {
+    padding: 13px 8px 15px;
+  }
+
+  .category-card-content h3 {
+    font-size: 16px;
+  }
+
+
+  /* NEW PRODUCTS */
+
+  .new-products {
+    grid-template-columns: 1fr;
+
+    max-width: 330px;
+  }
+
+  .new-product-image {
+    height: 280px;
+  }
+}
