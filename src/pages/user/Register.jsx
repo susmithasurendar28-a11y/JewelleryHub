@@ -72,7 +72,7 @@ function Register() {
     try {
 
       const response = await axios.get(
-        "http://localhost:3000/users"
+        "https://jewelleryhub-api.onrender.com/users"
       );
 
 
@@ -89,7 +89,7 @@ function Register() {
 
 
       await axios.post(
-        "http://localhost:3000/users",
+        "https://jewelleryhub-api.onrender.com/users",
         {
           name,
           email,

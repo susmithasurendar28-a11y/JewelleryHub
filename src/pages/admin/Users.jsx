@@ -11,7 +11,7 @@ function Users() {
   const fetchUsers = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:3000/users"
+        "https://jewelleryhub-api.onrender.com/users"
       );
 
       setUsers(response.data);
@@ -38,7 +38,7 @@ function Users() {
 
     try {
       await axios.delete(
-        `http://localhost:3000/users/${id}`
+        `https://jewelleryhub-api.onrender.com/users/${id}`
       );
 
       setUsers((previousUsers) =>

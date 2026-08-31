@@ -21,7 +21,7 @@ function ProductDetails() {
   // GET PRODUCT
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/products/${id}`)
+      .get(`https://jewelleryhub-api.onrender.com/products/${id}`)
       .then((response) => {
         setProduct(response.data);
       })

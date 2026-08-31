@@ -18,7 +18,7 @@ function Dashboard() {
     try {
       // Get products
       const productsRes = await axios.get(
-        "http://localhost:3000/products"
+        "https://jewelleryhub-api.onrender.com/products"
       );
 
       setProducts(productsRes.data);
@@ -26,7 +26,7 @@ function Dashboard() {
       // Get users
       try {
         const usersRes = await axios.get(
-          "http://localhost:3000/users"
+          "https://jewelleryhub-api.onrender.com/users"
         );
 
         setUsers(usersRes.data);
@@ -37,7 +37,7 @@ function Dashboard() {
       // Get orders
       try {
         const ordersRes = await axios.get(
-          "http://localhost:3000/orders"
+          "https://jewelleryhub-api.onrender.com/orders"
         );
 
         setOrders(ordersRes.data);

@@ -134,7 +134,7 @@ function Checkout() {
 
       // SAVE ORDER TO JSON SERVER
       await axios.post(
-        "http://localhost:3000/orders",
+        "https://jewelleryhub-api.onrender.com/orders",
         newOrder
       );
 

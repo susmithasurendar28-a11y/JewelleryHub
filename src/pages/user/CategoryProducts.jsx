@@ -18,7 +18,7 @@ function CategoryProducts() {
   });
 
   useEffect(() => {
-    fetch("http://localhost:3000/products")
+    fetch("https://jewelleryhub-api.onrender.com/products")
       .then((response) => response.json())
       .then((data) => {
         let filteredProducts = data;

@@ -22,7 +22,7 @@ function Ordersu() {
   const fetchOrders = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:3000/orders"
+        "https://jewelleryhub-api.onrender.com/orders"
       );
 
       let allOrders = response.data;

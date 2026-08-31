@@ -18,7 +18,7 @@ function Categories() {
   const fetchProducts = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:3000/products"
+        "https://jewelleryhub-api.onrender.com/products"
       );
 
       setProducts(response.data);

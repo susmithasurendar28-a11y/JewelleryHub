@@ -15,7 +15,7 @@ function Home() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/products")
+      .get("https://jewelleryhub-api.onrender.com/products")
       .then((response) => {
         setProducts(response.data);
       })

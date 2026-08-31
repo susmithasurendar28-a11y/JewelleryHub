@@ -14,7 +14,7 @@ function Orders() {
   const fetchOrders = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:3000/orders"
+        "https://jewelleryhub-api.onrender.com/orders"
       );
 
       setOrders(response.data);
@@ -28,7 +28,7 @@ function Orders() {
   const handleStatusChange = async (orderId, newStatus) => {
     try {
       await axios.patch(
-        `http://localhost:3000/orders/${orderId}`,
+        `https://jewelleryhub-api.onrender.com/orders/${orderId}`,
         {
           status: newStatus
         }

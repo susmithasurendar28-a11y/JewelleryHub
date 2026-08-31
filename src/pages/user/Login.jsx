@@ -34,7 +34,7 @@ function Login() {
 
       // Get registered users
       const response = await axios.get(
-        "http://localhost:3000/users"
+        "https://jewelleryhub-api.onrender.com/users"
       );
 
 

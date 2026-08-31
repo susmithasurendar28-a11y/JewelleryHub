@@ -24,7 +24,7 @@ function EditProduct() {
   useEffect(() => {
 
     axios
-      .get(`http://localhost:3000/products/${id}`)
+      .get(`https://jewelleryhub-api.onrender.com/products/${id}`)
 
       .then((response) => {
 
@@ -71,7 +71,7 @@ function EditProduct() {
     try {
 
       await axios.put(
-        `http://localhost:3000/products/${id}`,
+        `https://jewelleryhub-api.onrender.com/products/${id}`,
         {
           productName: product.productName,
           category: product.category,

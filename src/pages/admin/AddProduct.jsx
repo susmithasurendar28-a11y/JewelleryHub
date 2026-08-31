@@ -27,7 +27,7 @@ function AddProduct() {
     e.preventDefault();
 
     axios
-      .post("http://localhost:3000/products", {
+      .post("https://jewelleryhub-api.onrender.com/products", {
         productName: product.productName,
         category: product.category,
         price: Number(product.price),
