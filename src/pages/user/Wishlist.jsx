@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Heart, ShoppingBag, Trash2 } from "lucide-react";
+import { useDispatch } from "react-redux";
+
+import { addToCart } from "../../redux/cartSlice";
 
 import Navbar from "../../components/Navbar";
 
@@ -9,26 +12,19 @@ import "../../styles/wishlist.css";
 function Wishlist() {
   const [wishlist, setWishlist] = useState([]);
 
-  /* =========================
-     LOAD WISHLIST
-  ========================= */
+  const dispatch = useDispatch();
 
   useEffect(() => {
-    const savedWishlist =
-      localStorage.getItem("wishlist");
+    const savedWishlist = localStorage.getItem("wishlist");
 
     if (savedWishlist) {
       setWishlist(JSON.parse(savedWishlist));
     }
   }, []);
 
-  /* =========================
-     REMOVE PRODUCT
-  ========================= */
-
   const removeFromWishlist = (id) => {
     const updatedWishlist = wishlist.filter(
-      (product) => product.id !== id
+      (product) => String(product.id) !== String(id)
     );
 
     setWishlist(updatedWishlist);
@@ -39,44 +35,12 @@ function Wishlist() {
     );
   };
 
-  /* =========================
-     ADD TO BAG
-  ========================= */
-
   const addToBag = (product) => {
-    const oldBag =
-      JSON.parse(localStorage.getItem("bag")) || [];
-
-    const existingProduct = oldBag.find(
-      (item) =>
-        String(item.id) === String(product.id)
-    );
-
-    let newBag;
-
-    if (existingProduct) {
-      newBag = oldBag.map((item) =>
-        String(item.id) === String(product.id)
-          ? {
-              ...item,
-              quantity:
-                Number(item.quantity || 0) + 1,
-            }
-          : item
-      );
-    } else {
-      newBag = [
-        ...oldBag,
-        {
-          ...product,
-          quantity: 1,
-        },
-      ];
-    }
-
-    localStorage.setItem(
-      "bag",
-      JSON.stringify(newBag)
+    dispatch(
+      addToCart({
+        ...product,
+        quantity: 1,
+      })
     );
 
     alert("Product added to bag");
@@ -87,10 +51,6 @@ function Wishlist() {
 
       <Navbar />
 
-      {/* =========================
-          HEADER
-      ========================= */}
-
       <section className="wishlist-heading">
 
         <p>JEWELLERYHUB</p>
@@ -99,18 +59,10 @@ function Wishlist() {
 
         <span>
           {wishlist.length}{" "}
-          {wishlist.length === 1
-            ? "item"
-            : "items"}{" "}
-          saved
+          {wishlist.length === 1 ? "item" : "items"} saved
         </span>
 
       </section>
-
-
-      {/* =========================
-          EMPTY WISHLIST
-      ========================= */}
 
       {wishlist.length === 0 ? (
 
@@ -120,9 +72,7 @@ function Wishlist() {
             <Heart size={42} />
           </div>
 
-          <h2>
-            Your Wishlist is Empty
-          </h2>
+          <h2>Your Wishlist is Empty</h2>
 
           <p>
             Save your favourite jewellery here
@@ -140,10 +90,6 @@ function Wishlist() {
 
       ) : (
 
-        /* =========================
-           WISHLIST PRODUCTS
-        ========================= */
-
         <section className="wishlist-products">
 
           <div className="wishlist-grid">
@@ -154,8 +100,6 @@ function Wishlist() {
                 className="wishlist-card"
                 key={product.id}
               >
-
-                {/* IMAGE */}
 
                 <div className="wishlist-image">
 
@@ -177,9 +121,6 @@ function Wishlist() {
 
                 </div>
 
-
-                {/* DETAILS */}
-
                 <div className="wishlist-info">
 
                   <h3>
@@ -188,24 +129,19 @@ function Wishlist() {
 
                   <p className="wishlist-price">
                     ₹
-                    {Number(
-                      product.price
-                    ).toLocaleString("en-IN")}
+                    {Number(product.price).toLocaleString(
+                      "en-IN"
+                    )}
                   </p>
 
                   <p className="wishlist-rating">
                     ★ {product.rating}
                   </p>
 
-
-                  {/* ADD TO BAG */}
-
                   <button
                     type="button"
                     className="view-product"
-                    onClick={() =>
-                      addToBag(product)
-                    }
+                    onClick={() => addToBag(product)}
                   >
                     <ShoppingBag size={16} />
                     Add to Bag
