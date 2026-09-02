@@ -70,7 +70,6 @@ function Categories() {
     ).length;
   };
 
-  // Go to ADMIN Products page with category filter
   const handleView = (categoryName) => {
     navigate(
       `/admin/products?category=${encodeURIComponent(categoryName)}`
@@ -84,19 +83,20 @@ function Categories() {
 
       <main className="categories-page">
 
-        {/* HEADER */}
-
         <div className="categories-header">
+
           <h1>Categories</h1>
-          <p>Manage your jewellery categories</p>
+
+          <p>
+            Manage your jewellery categories
+          </p>
+
         </div>
-
-
-        {/* SUMMARY */}
 
         <div className="category-summary">
 
           <div className="category-summary-card">
+
             <div className="category-summary-icon">
               💎
             </div>
@@ -105,10 +105,11 @@ function Categories() {
               <span>Total Categories</span>
               <strong>{categories.length}</strong>
             </div>
+
           </div>
 
-
           <div className="category-summary-card">
+
             <div className="category-summary-icon">
               🛍️
             </div>
@@ -117,10 +118,11 @@ function Categories() {
               <span>Total Products</span>
               <strong>{products.length}</strong>
             </div>
+
           </div>
 
-
           <div className="category-summary-card">
+
             <div className="category-summary-icon">
               ✨
             </div>
@@ -129,23 +131,25 @@ function Categories() {
               <span>Active Categories</span>
               <strong>{categories.length}</strong>
             </div>
+
           </div>
 
         </div>
-
-
-        {/* CATEGORY CARD */}
 
         <section className="categories-card">
 
           <div className="categories-card-header">
 
             <div>
-              <h2>Jewellery Categories</h2>
+
+              <h2>
+                Jewellery Categories
+              </h2>
 
               <p>
                 Browse and manage products by category
               </p>
+
             </div>
 
             <span className="category-count">
@@ -154,12 +158,10 @@ function Categories() {
 
           </div>
 
-
-          {/* LOADING */}
-
           {loading ? (
 
             <div className="category-empty">
+
               <div className="empty-category-icon">
                 💎
               </div>
@@ -167,6 +169,7 @@ function Categories() {
               <h3>
                 Loading Categories...
               </h3>
+
             </div>
 
           ) : (
@@ -186,8 +189,6 @@ function Categories() {
                     key={category.name}
                   >
 
-                    {/* IMAGE */}
-
                     <div className="category-image">
 
                       <img
@@ -196,9 +197,6 @@ function Categories() {
                       />
 
                     </div>
-
-
-                    {/* DETAILS */}
 
                     <div className="category-item-content">
 
@@ -214,9 +212,6 @@ function Categories() {
                       </p>
 
                     </div>
-
-
-                    {/* VIEW */}
 
                     <button
                       type="button"
